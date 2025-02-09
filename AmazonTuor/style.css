@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+
+#navbar {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(39, 37, 37);
+    
+}
+
+.navbar-nav .nav-link {
+    color: rgb(24, 23, 23) !important;
+}
+
+.jumbotron {
+    background-image: url('img/fundo.jpg');
+
+    background-color: #333;
+    color: white;
+}
+
+footer {
+    background-color: #021520;
+    color: white;
+}
+
+.container {
+    margin-top: 20px;
+    
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.btn{
+   
+    background-color: #1993da;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    
+    
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
